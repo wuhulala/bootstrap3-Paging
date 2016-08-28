@@ -1,0 +1,6 @@
+{
+  "name": "Bootstrap3-paging",
+  "tagline": "a simple paging plugin",
+  "body": "#bootstrap3-Paging#\r\n>a simple paging plugin\r\n\r\n##config##\r\nso easy\r\n```javascript\r\n            var callback = function(){\r\n                console.log(\"callback()\"+page.curPageNum);\r\n                page.setAllPageNum(page.allPageNum+3)\r\n            };\r\n            var page = paging(\".pagination\",3,3,callback);\r\n            page.createPagination();\r\n```\r\npaging(id, all, size,callback)\r\n\r\n1. id : jquery selector_id\r\n2. all : all data numbers\r\n3. size : paging menu size\r\n4. callback : callback function\r\n\r\n##picture##\r\n![](http://wuhulala.github.io/images/images.jpg)",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}

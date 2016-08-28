@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="Bootstrap3-paging : a simple paging plugin">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Bootstrap3-paging</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/wuhulala/bootstrap3-Paging">View on GitHub</a>
+
+          <h1 id="project_title">Bootstrap3-paging</h1>
+          <h2 id="project_tagline">a simple paging plugin</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/wuhulala/bootstrap3-Paging/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/wuhulala/bootstrap3-Paging/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1>
+<a id="bootstrap3-paging" class="anchor" href="#bootstrap3-paging" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>bootstrap3-Paging</h1>
+
+<blockquote>
+<p>a simple paging plugin</p>
+</blockquote>
+
+<h2>
+<a id="config" class="anchor" href="#config" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>config</h2>
+
+<p>so easy</p>
+
+<div class="highlight highlight-source-js"><pre>            <span class="pl-k">var</span> <span class="pl-en">callback</span> <span class="pl-k">=</span> <span class="pl-k">function</span>(){
+                <span class="pl-en">console</span>.<span class="pl-c1">log</span>(<span class="pl-s"><span class="pl-pds">"</span>callback()<span class="pl-pds">"</span></span><span class="pl-k">+</span><span class="pl-smi">page</span>.<span class="pl-smi">curPageNum</span>);
+                <span class="pl-smi">page</span>.<span class="pl-en">setAllPageNum</span>(<span class="pl-smi">page</span>.<span class="pl-smi">allPageNum</span><span class="pl-k">+</span><span class="pl-c1">3</span>)
+            };
+            <span class="pl-k">var</span> page <span class="pl-k">=</span> <span class="pl-en">paging</span>(<span class="pl-s"><span class="pl-pds">"</span>.pagination<span class="pl-pds">"</span></span>,<span class="pl-c1">3</span>,<span class="pl-c1">3</span>,callback);
+            <span class="pl-smi">page</span>.<span class="pl-en">createPagination</span>();</pre></div>
+
+<p>paging(id, all, size,callback)</p>
+
+<ol>
+<li>id : jquery selector_id</li>
+<li>all : all data numbers</li>
+<li>size : paging menu size</li>
+<li>callback : callback function</li>
+</ol>
+
+<h2>
+<a id="picture" class="anchor" href="#picture" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>picture</h2>
+
+<p><img src="http://wuhulala.github.io/images/images.jpg" alt=""></p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Bootstrap3-paging maintained by <a href="https://github.com/wuhulala">wuhulala</a></p>
+        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
